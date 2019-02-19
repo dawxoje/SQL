@@ -1,3 +1,4 @@
+delete from Profesores where 1;
 INSERT INTO Profesores(dni, nombre, categoria, ingreso)
 VALUES("21111222","Eva Giner","TEU",1992-10-02);
 INSERT INTO Profesores(dni, nombre, categoria, ingreso)
@@ -5,6 +6,7 @@ VALUES("21222333","Manuel Perez","TEU",1988-06-15);
 INSERT INTO Profesores(dni, nombre, categoria, ingreso)
 VALUES("21333444","Rafaela Gomis","ASO6",1993-06-15);
 
+delete from Asignaturas where 1;
 INSERT INTO Asignaturas(codigo, descripcion, creditos, creditosp)
 VALUES("DGBD","Diseño y gestión de bases de datos ",6.0,3.0);
 INSERT INTO Asignaturas(codigo, descripcion, creditos, creditosp)
@@ -16,6 +18,7 @@ VALUES("HI","Historia de la informatica ",4.5);
 INSERT INTO Asignaturas(codigo, descripcion, creditos, creditosp)
 VALUES("PC","Programación concurrente ",6.0,1.5);
 
+delete from Imparte where 1;
 INSERT INTO Imparte(dni,asignatura)
 VALUES("21111222","DGBD");
 INSERT INTO Imparte(dni,asignatura)
