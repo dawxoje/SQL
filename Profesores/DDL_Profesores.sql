@@ -1,3 +1,7 @@
+DROP TABLE Profesores;
+DROP TABLE  Asignaturas;
+DROP TABLE Imparte;
+
 CREATE TABLE Profesores(
 	dni varchar(10) NOT NULL,
 	nombre varchar(40),
@@ -10,8 +14,8 @@ CREATE TABLE Profesores(
 CREATE TABLE Asignaturas(
 	codigo varchar(5) NOT NULL,
 	descripcion varchar (35),
-	creditos numeric(3,1),
-	creditosp numeric(3,1),
+	creditos numeric(4,1),
+	creditosp numeric(4,1),
 	
 	CONSTRAINT pk_asignaturas PRIMARY KEY(codigo)
 );
