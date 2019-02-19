@@ -17,7 +17,7 @@ CREATE TABLE Caballos(
 );
 CREATE TABLE Carreras(
 	codCarrera varchar(4) NOT NULL,
-	fechayhora timestamp CHECK(TO_CHAR(fechayhora, 'HH24:MI:SS')between '09:00:00' AND '14:30:00'),
+	fechayhora timestamp CHECK(TO_CHAR(fechayhora, 'HH24:MI')between '09:00' AND '14:30'),
 	nombre varchar(20),
 	importepremio numeric(6),
 	apuestalimite numeric(5,2) CHECK(apuestalimite<20000),

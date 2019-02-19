@@ -21,7 +21,7 @@ INSERT INTO Caballos(codcaballo, nombre, peso, fechanacimiento, propietario, nac
 Values('0010','Manuel',250,'20-10-2003','Juan','España');
 
 INSERT INTO Carreras(codcarrera, fechayhora, nombre, importepremio, apuestalimite)
-VALUES('0001','2000-21-10-09-30-00', 'Monmelo', 10000, 199);
+VALUES('0001','10-21-2000 09:31', 'Monmelo', 10000, 199);
 INSERT INTO Carreras(codcarrera, fechayhora, nombre, importepremio, apuestalimite)
 VALUES('0002',22-10-2000-10-30-00, 'Dakar', 2000, 1999);
 INSERT INTO Carreras(codcarrera, fechayhora, nombre, importepremio, apuestalimite)
