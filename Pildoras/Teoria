@@ -1,0 +1,13 @@
+--Comando--
+Definicion
+DDL=>Create, Alter, Drop, Truncate
+Manipulacion
+DML=>Select, Insert, Update, Delete
+Control
+DCL=>Grant, Revoke
+Transaccion Control
+TCL=>Commit, Rollback, Savepoint
+
+--CLAUSULAS--=>From, Where, Group By, Having, Order By
+
+INSTRUCCION SQL=> Comando+Clausula+Operadores+Funciones
