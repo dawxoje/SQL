@@ -10,4 +10,6 @@ TCL=>Commit, Rollback, Savepoint
 
 --CLAUSULAS--=>From, Where, Group By, Having, Order By
 
+--Funciones--=>AVG, COUNT, SUM, MAX, MIN
+
 INSTRUCCION SQL=> Comando+Clausula+Operadores+Funciones
